@@ -16,7 +16,7 @@
             Console.WriteLine($"The coordinate point {coordinate} lies in {(quadrant == "" ? "no" : "the " + quadrant)} quadrant.");
         }
 
-        static string DetermineQuadrant((double, double) coordinate)
+        static string DetermineQuadrant((double x, double y) coordinate)
         {
             switch (coordinate)
             {
